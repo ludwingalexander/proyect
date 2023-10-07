@@ -1,0 +1,13 @@
+import random
+caracteres = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+x =  (input("¿q tan larga quieres tu cuntraseña?"))
+password = ""
+
+
+for i in range(x):
+    y = random.randint(0,len(caracteres))
+
+    password += caracteres(y)
+
+    print(password)
